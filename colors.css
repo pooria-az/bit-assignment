@@ -1,0 +1,120 @@
+
+/* These classes are not used in the HTML since this method is not required in assignment */
+/* Only for reference of colors name and function */
+.dark-primary-color    { background: #7B1FA2; }
+.default-primary-color { background: #9C27B0; }
+.light-primary-color   { background: #E1BEE7; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF4081; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+header {
+  background: #9C27B0;
+  border-radius: 15px;
+  color: #FFFFFF;
+  height: 80px;
+  margin: 0 10px;
+}
+
+body {
+  background: #E1BEE7;
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none; 
+}
+
+p {
+  line-height: 25px;
+}
+
+h1 {
+  color: #7B1FA2;
+  font-size: 50px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  color: #E1BEE7; 
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav li {
+  font-size: 25px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0 15px;
+}
+
+main {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin: 15px 10px;
+  min-height: 450px;
+}
+
+.column-left {
+  -webkit-flex: 3 0 0; 
+  flex: 3 0 0; 
+  background: #FFFFFF;
+  color: #212121;
+  border: solid 2px #BDBDBD;
+  border-radius: 15px;
+  padding: 30px;
+  margin-right: 15px;
+}
+
+.column-right {
+  -webkit-flex: 1 0 0;
+  flex: 1 0 0;
+  background: #FF4081;
+  color: #FFFFFF;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#image {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.small-text {
+  font-size: 12px;
+  margin: 3px;
+  text-align: center;
+  color: #FFFFFF;
+  font-style: italic;
+}
+
+.small-text a {
+  color: #E1BEE7;
+}
+
+.colored-text {
+  color: #FF4081;
+  font-style: bold;
+}

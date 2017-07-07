@@ -74,6 +74,10 @@ header {
   padding: 15px;
 }
 
+#navbar-top a {
+  color: #eee;
+}
+
 #nav-menu {
   display: inline-block;
   list-style: none;
@@ -156,6 +160,10 @@ content {
   color: #323232;
   max-height: 250px;
   overflow: hidden;
+}
+
+#news a {
+  color: #f1f1f1;
 }
 
 #articles {
@@ -292,6 +300,12 @@ content {
   background: rgba(255, 255, 255, 0.6);
 }
 
+#small-note {
+  position: absolute;
+  bottom: 30px;
+  left: 10%;
+  color: #eee;
+}
 
 /* Form ========================================= */
 

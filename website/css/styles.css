@@ -1,0 +1,413 @@
+
+.grey {
+  background: #323232;
+  color: #f1f1f1;
+}
+
+.light-grey {
+  background: #f1f1f1;
+  color: #323232;
+}
+
+.pink {
+  background: #ed1a3b;
+}
+
+.blue {
+  background: #21409a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 120px 0 0;
+}
+
+p {
+  line-height: 1.6rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #21409a;
+}
+
+a:hover {
+  color: #323232;
+}
+
+a:active, a:focuse {
+  color: #323232;
+}
+
+header {
+  position: fixed;
+  background: #fff;
+  z-index: 4;
+  height: 120px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#logo {
+  position: absolute;
+  top: -10px;
+  left: 15%;
+  width: 100px;
+}
+
+#navbar-top {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  text-align: right;
+  background: #323232;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+  padding: 15px;
+}
+
+#nav-menu {
+  display: inline-block;
+  list-style: none;
+  height: 80px;
+  margin: 0;
+}
+
+#nav-menu li:first-item {
+  border-left: 1px solid #eee;
+}
+
+#nav-menu li {
+  display: inline-block;
+  text-align: center;
+  padding: 25px;
+  border-right: 1px solid #eee;
+  margin-left: -5px;
+}
+
+#nav-menu a {
+  font-weight: 500;
+  color: #323232;
+}
+
+#nav-menu li:hover {
+  color: #323232;
+  background: #f5f5f5;
+  border-bottom: solid 3px #ed1a3b;
+}
+
+#menu {
+  position: relative;
+  padding-left: 30%;
+}
+
+#search-box {
+  position: absolute;
+  top: 25px;
+  right: 10%;
+  padding: 5px;
+  font-size: 0.9rem;
+  border: none;
+  outline: 0;
+  border: 1px solid #323232;
+}
+
+
+/* custom sections ============================= */
+
+content {
+  margin-top: -100px;
+}
+
+#news {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  background: url('../images/bg1.jpg') no-repeat;
+  background-color: #323232;
+  background-size: cover;
+}
+
+.news-layer {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  left: 10%;
+  bottom: 20px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#news .news-title {
+  color: #ed1a3b;
+  font-weight: 500;
+}
+
+#news .news-text {
+  color: #323232;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+#articles {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#clients {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: url('../images/bg2.jpg') no-repeat;
+  background-color: #323232;
+  background-size: cover;
+  background-position: 0 -250px;
+}
+
+#clients h2 {
+  color: #f1f1f1;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  line-height: 7rem;
+  text-align: center;
+  margin: 0;
+}
+
+#clients .client-logo {
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
+.client-layer {
+  position: absolute;
+  top: 120px;
+  border-radius: 40px;
+  right: 10%;
+  left: 10%;
+  bottom: 20px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.content {
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  min-height: 300px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.top-indent {
+  margin-top: 3rem;
+}
+
+#partners {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  background: url('../images/bg3.jpg') no-repeat;
+  background-color: #323232;
+  background-size: cover;
+}
+
+.partners-title {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+}
+
+.partners-title h1 {
+  font-size: 4rem;
+  color: #f1f1f1;
+  letter-spacing: 0.2rem;
+  line-height: 7rem;
+  margin: 0;
+}
+
+.partner-card {
+  margin: 0 auto;
+  width: 550px;
+  border-left: 10px solid #21409a;
+  padding: 50px;
+}
+
+.partner-card:hover {
+  background: #f1f1f1;
+}
+
+.partner-card p, .partner-card-2 p {
+  display: inline-block;
+}
+
+.partner-card-2 {
+  margin: 0 auto;
+  width: 550px;
+  border-left: 10px solid #ed1a3b;
+  padding: 50px;
+}
+
+.partner-card-2:hover {
+  background: #f1f1f1;
+}
+
+.partner-card-top img {
+  float: left;
+  width: 120px;
+  margin-right: 25px;
+}
+
+.partner-card-top h3 {
+  display: inline-block;
+  float: left;
+}
+
+#career {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: url('../images/bg4.jpg') no-repeat;
+  background-color: #323232;
+  background-size: cover;
+}
+
+#career .white-layer {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Form ========================================= */
+
+.career-form fieldset {
+  border: 0;
+}
+
+.career-form input[type=file] {
+  border: 0;
+  color: #f1f1f1;
+}
+
+.career-form label {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 10em;
+  margin: 0 1em 0 0;
+}
+
+.career-form input, .career-form select{
+  padding: .5em .6em;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #323232;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+.career-form button {
+  width: 120px;
+  border: 1px solid #323232;
+  font-size: 0.9rem;
+  margin: 0 auto;
+  display: block;
+  height: 35px;
+  background: #fff;
+}
+
+.career-form select {
+  height: 35px;
+  width: 185px;
+}
+
+
+/* Grid ========================================= */
+
+.row-1, .row-3, .row-2, .row-5  {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  width: 94%;
+  padding: 3%;
+}
+
+.row-1 > .column {
+  width: 50%;
+  padding: 0 25%;
+}
+
+.row-3 > .column {
+  width: 27%;
+  padding: 3%;
+}
+
+.row-2 > .column {
+  width: 44%;
+  padding: 3%;
+}
+
+.row-5 > .column {
+  width: 14%;
+  padding: 3%;
+}
+
+/* footer =========================================== */
+
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  background: #807d7d;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+  padding: 15px;
+}
+
+/* reponsive ==================================== */
+
+@media all and (max-width : 768px) {
+ 
+   header {
+      text-align: center;
+   }
+ 
+   nav {
+      text-align: center;
+   }
+ 
+   #columns {
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+   }
+ 
+   #columns > #content {
+      width: 94%;
+      padding: 3%;
+   }
+ 
+   #columns > #sidebar {
+      width: 94%;
+      padding: 3%;
+      border-top: 3px solid #E64A19;
+   }
+ 
+}
